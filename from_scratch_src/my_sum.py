@@ -6,8 +6,6 @@ This file contains different variations of the sum() function that calculates th
 >>> level_01_my_sum(obj): This uses standard for loop to iterate over object (obj) and return the sum.
 >>> level_02_my_sum(obj): This uses the iter() and next() functions to iterate over object (obj) and return the sum.
 >>> level_03_my_sum(obj): This uses the __iter__() and __next__() methods to iterate over object (obj) and return the sum.
->>> level_04_my_sum(obj): This uses custom functions to iterate over object (obj) and return the sum.
->>> Range_From_Scratch(): This class defines custom functions that iterate over an object and gets each element in the object.
 
 Examples:
     See examples/notebooks folder for simple usage and interactive demo.
@@ -79,25 +77,25 @@ def level_03_my_sum(obj):
     return cum_sum
 
 ## Still in the works
-class Range_From_Scratch():
-    def __init__(self, start, stop, curr):
-        self.start = start
-        self.stop = stop
-        self.curr = curr
+# class Range_From_Scratch():
+#     def __init__(self, start, stop, curr):
+#         self.start = start
+#         self.stop = stop
+#         self.curr = curr
 
-    def __myiter__(self):
+#     def __myiter__(self):
         
-        return self
+#         return self
 
-    def __mynext__(self, curr):
+#     def __mynext__(self, curr):
         
-        return curr
+#         return curr
 
-    def myiter():
-        pass
+#     def myiter():
+#         pass
 
-    def mynext():
-        pass
+#     def mynext():
+#         pass
 
 # def level_04_my_sum(obj):
 #     """
