@@ -1,5 +1,5 @@
 """
-Counting the numeber of elements in an iterable.
+Counting the number of elements in an iterable.
 
 This file contains my version of the len() function that counts the number of elements in an iterable.
 
